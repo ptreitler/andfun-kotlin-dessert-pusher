@@ -1,6 +1,6 @@
 # Activity Lifecycle - DessertPusher 
 
-This is the toy app for lesson 4 of the [Android App Development in Kotlin course on Udacity](https://www.udacity.com/course/???).
+This is the toy app for lesson 4 of the [Android App Development in Kotlin course on Udacity](https://www.udacity.com/course/developing-android-apps-with-kotlin--ud9012).
 
 ## DessertPusher
 
@@ -89,7 +89,7 @@ git commit -m "Your commit message"
 
 **Step 5: Compare with the solution**
 
-Most exercises will have a list of steps for you to check off in the classroom. Once you've checked these off, you'll see a pop up window with a link to the solution code. Note the **Diff** link:
+Some exercises will have a list of steps for you to check off in the classroom. Once you've checked these off, you'll see a pop up window with a link to the solution code. Note the **Diff** link:
 
 ![solutionwindow](https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58bf00f9_solutionwindow/solutionwindow.png
 )
