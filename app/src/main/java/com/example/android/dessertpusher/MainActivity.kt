@@ -18,6 +18,7 @@ package com.example.android.dessertpusher
 
 import android.content.ActivityNotFoundException
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
@@ -64,7 +65,8 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // TODO (01) Add an info level log statement here
+
+        Log.i(TAG, "onCreate called")
 
         // Use Data Binding to get reference to the views
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
@@ -148,5 +150,12 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
         return super.onOptionsItemSelected(item)
     }
 
-    // TODO (02) Override the onStart lifecycle method and add an info level log statement
+    override fun onStart() {
+        super.onStart()
+        Log.i(TAG, "onStart called")
+    }
+
+    companion object {
+        private const val TAG = "MainActivity"
+    }
 }
